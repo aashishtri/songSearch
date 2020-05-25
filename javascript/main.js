@@ -110,9 +110,7 @@ soundcloud.getcard = function (tracks) {
 		soundcloud.embedsong(curtrack.permalink_url);
 		//console.log(content);
 	});
-	
-
-		
+	soundcloud.clearplaylist();
 	});
 }
 
